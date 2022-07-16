@@ -1,0 +1,276 @@
+@font-face {
+    font-family: Graphik-Medium;
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+
+@font-face {
+    font-family: Graphik-Regular;
+    src: url(../fonts/Graphik-Regular.woff);
+}
+
+@font-face {
+    font-family: Theinhard-Lt;
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+
+@font-face {
+    font-family: TiemposHeadline-Semibold;
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header part: */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 4vh 5% 5vh 5%;
+    margin-bottom: 10vh;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Graphik-Medium;
+    margin-right: 20px;
+    color: #2B2C2E;
+}
+
+h1 {
+    font-family: TiemposHeadline-Semibold;
+    font-weight: 800;
+    font-size: 38px;
+}
+
+.get_started_button {
+    border: 3px solid black;
+    padding: 5px 70px;
+    font-family: Graphik-Medium;
+    font-size: 25px;
+    color: #2B2C2E;
+    border-radius: 4px;
+    text-decoration: none;
+
+}
+
+/* main part -> section get_Your_Design, die erste H2 und das Bild 'homehero'darunter */
+.get_Your_Design {
+    text-align: center;
+}
+
+.h2_getYourDesign {
+    font-family: 'Graphik-Regular';
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 5vh;
+}
+
+.img_first {
+    width: 100%;
+    margin-bottom: 20vh;
+}
+
+/* section : 'first_product' bestehend aus der Produktbeschreibung und dem kleinen Block rechst daneben bestehend aus der Preisangabe und einer kleinen Erläuterung */
+
+.first_product {
+    display: flex;
+}
+
+.p_productDescription {
+    font-family: Graphik-Medium;
+    font-size: 30px;
+    width: 59%;
+    margin-left: 10%;
+    line-height: 1.3;
+}
+
+.first_price {
+    font-family: Theinhard-Lt;
+    margin-left: 3%;
+    margin-bottom: 25vh;
+}
+
+.p_price149 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.p_flatRate {
+    color: #9FA2A7;
+    font-size: 25px;
+    width: 80%;
+}
+
+/* section : 'deliverables' Bild mit dem Hasen und den drei H3 rechts daneben */
+
+.deliverables {
+    display: flex;
+    margin-left: 10%;
+
+}
+
+.img_deliverables {
+    width: 45%;
+
+
+}
+
+.div_deliverables {
+    margin-left: 5%;
+    margin-right: 6%;
+
+}
+
+.h2_deliverables {
+    font-size: 60px;
+    font-family: TiemposHeadline-Semibold;
+    margin-bottom: 5vh;
+}
+
+h3 {
+    font-family: Graphik-Medium;
+    font-size: 25px;
+    margin-bottom: 2vh;
+
+}
+
+.p_h3 {
+    font-size: 25px;
+    font-family: Theinhard-Lt;
+    margin-bottom: 4vh;
+    color: #848689;
+}
+
+/* section : 'howItWorks' grauer Hintergrund : Bild mit der Frau ist rechts  und die erklärungen wie die Abwicklung des Designreviuews abläuft links daneben */
+
+.howItWorks {
+    background-color: rgb(238, 236, 243);
+    margin: 20vh 10% 20vh 10%;
+    display: flex;
+}
+
+.div_howItWorks {
+    padding: 5%;
+    width: 90%;
+}
+
+.h2_howItWorks {
+    font-family: TiemposHeadline-Semibold;
+    font-size: 60px;
+    margin-bottom: 2vh;
+}
+
+ol {
+    font-family: Theinhard-Lt;
+    font-size: 25px;
+    color: #9FA2A7;
+    margin-bottom: 2vh;
+}
+
+.p_whoWeAre {
+    font-family: Theinhard-Lt;
+    font-size: 25px;
+    color: #9FA2A7;
+    margin-bottom: 2vh;
+    width: 90%;
+}
+
+.img_howItWorks {
+    width: 100%;
+    margin-right: 5%;
+    padding-top: 5%;
+}
+
+/* section : 'critique' Ab der H2 CRITIQUE und dem kurgzen Text darunter in lightgrey  */
+
+
+.critique {
+    margin-left: 30%;
+}
+
+.div_critique {
+    text-align: center;
+    width: 50%;
+}
+
+.h2_critique {
+    font-size: 60px;
+    font-family: TiemposHeadline-Semibold;
+    margin-bottom: 5vh;
+}
+
+.p_critique {
+    font-family: Theinhard-Lt;
+    font-size: 21px;
+    color: #848689;
+    line-height: 2;
+    margin-bottom: 20vh;
+    word-wrap: break-word;
+}
+
+/* section : 'averageConversation' Ab der großen 28% Zahl inkl dem kleinen Text und dem Bild vom blonden Typen daneben  */
+
+.averageConversation {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.div_28 {
+    display: flex;
+    margin-left: 22%;
+}
+
+.p_averageConversation {
+    font-family: TiemposHeadline-Semibold;
+    color: #848689;
+    font-size: 22px;
+    line-height: 1.9;
+    margin-left: 5%;
+    margin-top: 4vh;
+    width: 30%;
+    white-space: normal;
+}
+
+.img_average {
+    width: 45%;
+    margin-right: 15%;
+    margin-top: -6vh;
+}
+
+/* footer  */
+.h2_anyQuestions {
+    border-top: #b2b3b5 solid 2px;
+    text-align: center;
+    padding-top: 10vh;
+    font-family: TiemposHeadline-Semibold;
+    font-size: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10vh;
+}
+
+.div_anyQuestions {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-family: Graphik-Medium;
+}
+
+.p_getInTouch {
+    margin-right: 1%;
+    font-size: 20px;
+    color: #848689;
+}
+
+.email {
+    font-size: 22px;
+    text-decoration: none;
+    color: #2B2C2E;
+    margin-bottom: 5vh;
+}
